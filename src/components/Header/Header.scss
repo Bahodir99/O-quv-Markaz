@@ -1,0 +1,48 @@
+header{
+    height: 550px;
+    width: 100%;
+    background: #3F236AE5  url(../../assets/img/header-bgi.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+  }
+  
+  .header__nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header__logo{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  
+  }
+  .header__list{
+    flex-grow: 0.3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 18px;
+        font-weight: 500;
+        transition: all ease .8s;
+    }& :hover{
+        color: gold;
+        position: relative;
+        ::after{
+            position: absolute;
+            content: '';
+            width: 100px;
+            height: 2px;
+            background-color: red;
+            bottom: -20px;
+            left: -10px;
+        }
+    }
+  }

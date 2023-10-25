@@ -7,6 +7,14 @@
 body{
     min-height: 100vh;
     font-size: 16px;
+    font-family: 'Comfortaa', sans-serif;
+    background: #F1F3FF;
+
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 a{

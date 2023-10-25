@@ -1,11 +1,22 @@
 import './App.css';
+import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero';
+import Poster from './components/Poster/Poster';
+import Project from './components/Project/Project';
+
+
 
 function App() {
+
   return (
     <div className="App">
-      <header>
-        <h1>hello world</h1>
-      </header>
+      <Header/>
+
+      <Hero/>
+
+      <Project />
+
+      <Poster />
     </div>
   );
 }
